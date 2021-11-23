@@ -199,7 +199,7 @@ noise
 noise
 0
 0.1
-0.1
+0.001
 0.001
 1
 NIL
@@ -298,8 +298,8 @@ CHOOSER
 208
 updating
 updating
-"synchronous" "asynch random independent" "asynch random order"
-1
+"asynch random independent" "asynch random order" "synchronous"
+2
 
 INPUTBOX
 24
@@ -307,7 +307,7 @@ INPUTBOX
 250
 161
 n-of-players-for-each-strategy
-[900 100 0 0 0 ]
+[90 10 0 0 0 0 0 0 0 0]
 1
 0
 String (reporter)
